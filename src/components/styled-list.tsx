@@ -1,10 +1,11 @@
 import styled from '@emotion/styled';
 
-const InputList = styled.ul`
+const StyledList = styled.ul`
   font-family: Arial, Helvetica, sans-serif;
   display: flex;
   flex-direction: column;
   gap: 10px;
+  padding: 0;
 
   & li {
     list-style-type: none;
@@ -19,4 +20,4 @@ const InputList = styled.ul`
   }
 `;
 
-export default InputList;
+export default StyledList;

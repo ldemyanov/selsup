@@ -1,6 +1,6 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import App, { type Model, type Param } from './App'
+import App, { type Model, type Param } from './app'
 
 const model: Model = {
   paramValues: [
